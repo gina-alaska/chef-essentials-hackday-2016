@@ -6,7 +6,7 @@
 
 require 'spec_helper'
 
-describe 'chef-essentials-hackday-2016::user-wdfraser.rb' do
+describe 'chef-essentials-hackday-2016::user-wdfraser' do
   context 'When all attributes are default, on an unspecified platform' do
     let(:chef_run) do
       runner = ChefSpec::ServerRunner.new
