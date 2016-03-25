@@ -8,3 +8,4 @@ version '0.2.1'
 
 depends 'windows'
 depends 'iis'
+depends 'windows-firewall'
