@@ -7,3 +7,4 @@ long_description 'Installs/Configures chef-essentials-hackday-2016'
 version '0.2.1'
 
 depends 'windows'
+depends 'iis'
