@@ -11,3 +11,4 @@ end
 
 include_recipe 'chef-essentials-hackday-2016::ohai-ec2'
 include_recipe 'chef-essentials-hackday-2016::chrome-karmix'
+include_recipe 'chef-essentials-hackday-2016::iis-sutekidayo'

@@ -4,7 +4,7 @@ maintainer_email 'you@example.com'
 license 'all_rights'
 description 'Installs/Configures chef-essentials-hackday-2016'
 long_description 'Installs/Configures chef-essentials-hackday-2016'
-version '0.2.1'
+version '0.3.0'
 
 depends 'windows'
 depends 'iis'
