@@ -33,3 +33,9 @@ windows_firewall_rule 'WinRM HTTP' do
   protocol 'TCP'
   firewall_action :allow
 end
+
+powershell_script 'enable-firewall' do
+  code <<-EOH
+  Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled True
+  EOH
+end
